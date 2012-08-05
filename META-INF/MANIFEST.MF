@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Eclipse-BuddyPolicy: global
+Bundle-ManifestVersion: 2
+Bundle-Name: net.evalcode.services.template
+Bundle-SymbolicName: net.evalcode.services.template
+Bundle-Version: 1.0.0
+Bundle-Vendor: evalcode.net
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: bin/main/classes
+Bundle-ActivationPolicy: lazy
+Require-Bundle: net.evalcode.services.lib,
+ net.evalcode.services.manager,
+ net.evalcode.services.http
+Export-Package: net.evalcode.services.template,
+ net.evalcode.services.template.entity,
+ net.evalcode.services.template.service,
+ net.evalcode.services.template.service.rest
